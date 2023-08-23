@@ -1,11 +1,12 @@
 *{
     margin: 0;
-
+    font-family: 'Inter', sans-serif;
 }
 #menuinfo{
   
     background: linear-gradient(#000000 , #00c8ff );
     background-repeat: no-repeat;
+
 }
 
 #barrasuperior{
@@ -17,4 +18,11 @@
     max-height: 130px;
     margin: 0 auto;
     display: flex;
+}
+#texto {
+    padding-left: 60px;
+    padding-top: 50px;
+}
+#texto h1{
+    color: white;
 }
