@@ -1,20 +1,98 @@
 *{
     margin: 0;
-
+    padding: 0;
+   
 }
-#menuinfo{
-  
-    background: linear-gradient(#000000 , #00c8ff );
-    background-repeat: no-repeat;
+body{
+    background-color:  #1b1b1b
 }
-
-#barrasuperior{
-    background-color: #000000;
-    max-height: 130px;
+body h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: bold;
+    color: #ffff
 }
-#barrasuperior img{
-    max-width: 230px;
-    max-height: 130px;
-    margin: 0 auto;
+#title{
     display: flex;
+    float: right;
+}
+#title span{
+    color: aqua;
+    font-family: 'Kanit', sans-serif;
+    font-size: bold;
+}
+#title h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+}
+#planos{
+    margin: 30px;
+}
+#planos h1{
+    color: aqua;
+    font-size: 40px;
+}
+
+#grid{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+   
+}
+#descricao hr{
+    border-color:aqua;
+    box-sizing:border-box;
+    width:100%;  
+}
+#descricao{
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.card{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 14,5px;
+}
+.incards{
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid aqua;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+    color: #ffff;
+    background-color: #303030;
+    max-width: 180px;
+}
+.incards img{
+    min-width: 38px;
+}
+#ouro{
+    background-color: #1b1b1b;
+    color: #fff;
+    
+}
+.done{
+    color: aqua;
+}
+.espaco{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    min-width: 100px;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    padding: 0px 15px 0px 15px;
+}
+#btouro{
+    font-size: 26px;
+    color: aqua;
 }
