@@ -1,2 +1,2 @@
 # cortez-ibiapina
- Landing page de captura 
+ Pagina de planos , da contabilidade digital da empresa 
